@@ -1,0 +1,268 @@
+/* geral*/
+
+body,
+p,
+h1,
+h2,
+h3,
+input,
+textarea {
+    margin: 0;
+    font-family: Montserrat;
+}
+
+h2 {
+    font-size: 2rem;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+h3 {
+    font-size: 1.3rem;
+    font-weight: 450;
+}
+
+
+/* navbar */
+
+#navbar {
+    background-color: #cc0000;
+    color: #fff;
+    padding: 0 15px;
+    height: 60px;
+    position: relative;
+}
+
+#navbar img {
+    position: relative;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: auto;
+    fill: none;
+}
+
+#navbar ul,
+#navbar-list li,
+#navbar nav {
+    display: inline-block;
+}
+
+#navbar nav {
+    float: right;
+}
+
+#navbar ul {
+    margin-top: 20px;
+}
+
+#navbar li {
+    margin: 0 10px;
+}
+
+#navbar-list li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+}
+
+#navbar-list li a:hover {
+    border-bottom: 1px solid #fff;
+}
+
+
+/* banner */
+
+#main-banner {
+    height: 70vh;
+    background-image: url('../images/03 - banner principal.jpg');
+    opacity: 0.8;
+    background-size: cover;
+    padding-top: 15vh;
+}
+
+#banner-principal {
+    width: 35%;
+    color: #fff;
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 30px;
+}
+
+.link-secondary {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 350;
+    cursor: pointer;
+}
+
+.link-secondary:hover {
+    color: #999;
+    cursor: pointer;
+}
+
+
+/*seçao sobre */
+
+#section-sobre {
+    height: 80vh;
+    background-color: #999;
+    background-size: cover;
+}
+
+#sobre-textarea {
+    width: 40%;
+    color: #fff;
+    position: absolute;
+    text-align: right;
+    margin-right: auto;
+    padding-top: 75px;
+}
+
+#section-sobre img {
+    float: right;
+    margin-left: auto;
+    margin-top: auto;
+    height: 80vh;
+}
+
+
+/*seçao quem somos */
+
+#section-quem-somos {
+    color: #fff;
+    text-align: center;
+    background-color: #cc0000;
+    height: 60vh;
+}
+
+#section-quem-somos p {
+    max-width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/*seçao sobre nós 4 conteiner */
+
+#section-conteiner {
+    margin-top: -100px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#section-conteiner .conteiner {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.quem-somos {
+    flex: 1 1 1 1;
+    background-color: #fff;
+    text-align: center;
+    width: 20%;
+    padding: 30px 25px;
+    border: 0.5px solid #ccc;
+}
+
+.quem-somos h3 {
+    color: #232323;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-weight: 350;
+    font-size: 1rem;
+}
+
+.quem-somos p {
+    color: #232323;
+    font-size: 0.6rem;
+}
+
+.quem-somos img {
+    max-width: 250px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 15px #cccccc;
+}
+
+
+/*seçao video */
+
+.video-area {
+    color: #232323;
+    background-color: #fff;
+    text-align: center;
+    height: 110vh;
+}
+
+#video {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* footer */
+
+.footer {
+    background-color: #cc0000;
+    color: #fff;
+}
+
+.footer img {
+    height: 100px;
+    margin-top: 30px;
+    margin-left: 25vh;
+}
+
+.footer h2 {
+    margin-left: 25vh;
+    margin-right: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: left;
+}
+
+.footer p {
+    margin-left: 25vh;
+    margin-right: auto;
+    text-align: left;
+    padding-bottom: 10px;
+}
+
+form {
+    width: 30%;
+    margin-left: 25vh;
+    margin-right: auto;
+}
+
+footer input,
+footer textarea {
+    border: none;
+    padding: 15px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    width: 100%;
+    display: block;
+}
+
+#copright {
+    font-size: 0.8rem;
+    text-align: center;
+    padding: 10px 0;
+}
+
+
+/*Responsivo celulares - media query*/
+
+@media (max-width: 450px) {
+    p,
+    input,
+    textarea {
+        font-size: 1.2rem;
+        font-family: Montserrat;
+    }
+}

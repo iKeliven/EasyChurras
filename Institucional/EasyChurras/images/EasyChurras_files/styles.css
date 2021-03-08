@@ -1,0 +1,111 @@
+/* geral*/
+
+body,
+p,
+h1,
+h2,
+h3,
+input,
+textarea {
+    margin: 0;
+    font-family: Montserrat;
+}
+
+h2 {
+    font-size: 2rem;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+h3 {
+    font-size: 1.3rem;
+    font-weight: 450;
+}
+
+
+/* navbar */
+
+#navbar {
+    background-color: #cc0000;
+    color: #fff;
+    padding: 0 15px;
+    height: 60px;
+    position: relative;
+}
+
+#navbar ul,
+#navbar-list li,
+#navbar nav {
+    display: inline-block;
+}
+
+#navbar img {
+    float: left;
+    height: 45px;
+    position: absolute;
+    top: 8px;
+}
+
+#navbar nav {
+    float: right;
+}
+
+#navbar ul {
+    margin-top: 20px;
+}
+
+#navbar li {
+    margin: 0 10px;
+}
+
+#navbar-list li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+}
+
+#navbar-list li a:hover {
+    border-bottom: 1px solid #fff;
+}
+
+
+/* banner */
+
+#main-banner {
+    height: 70vh;
+    background-image: url('../images/03 - banner principal.jpg');
+    opacity: 0.8;
+    background-size: cover;
+    padding-top: 15vh;
+}
+
+#banner-principal {
+    width: 35%;
+    color: #fff;
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 30px;
+}
+
+.link-secondary {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 350;
+    cursor: pointer;
+}
+
+.link-secondary:hover {
+    color: #999;
+    cursor: pointer;
+}
+
+#section-sobre {
+    text-align: right;
+    width: 35%;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 30px;
+}
