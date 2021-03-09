@@ -17,5 +17,5 @@ A plataforma se destina à profissionais churrasqueiros que estão em busca de n
 <h3>Tecnologias</h3>
 
 * Linguagem: JavaScript;
-* FrameWork: React Native;
+* Framework: React Native;
 * Banco de dados: Firebase
