@@ -12,7 +12,9 @@ A plataforma se destina à profissionais churrasqueiros que estão em busca de n
 <h3>Integrantes da Equipe</h3>
 
 - Keliven Bordin Demarchi
-- Yuri Ovelar Ferreira
+- Lucas Aguiar
+- Lucas Borges
+- Patricia Regina Rodrigues
 
 <h3>Tecnologias</h3>
 
