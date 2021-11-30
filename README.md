@@ -5,24 +5,24 @@ O EasyCHurras é uma plataforma multilateral que conecta churrasqueiros profissi
 O objetivo é proporcionar a facilidade e a comodidade de um churrasco completo a todas as pessoas que gostam de churrasco, sem que ela precise fazer algo além de escolher como e quando será o churrasco.
 
 <h2>Equipe</h2>
-Keliven Demarchi
-Patricia Rodrigues
-Lucas Aguiar
+Keliven Demarchi <br>
+Patricia Rodrigues <br>
+Lucas Aguiar<br>
 Lucas Borges
 
 
 <h2>Tecnologias</h2>
 
 <h3>Plataforma híbrida</h3>
-React-native EXPO
-Node JS
+React-native - EXPO<br>
+Node JS <br>
 JavaScript
 
 <h3>Banco de dados</h3>
-No-SQL
+No-SQL<br>
 Firebase
 
 <h3>Site institucional</h3>
-Html
-Css
+Html<br>
+Css<br>
 JavaScript
