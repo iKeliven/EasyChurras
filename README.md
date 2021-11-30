@@ -18,7 +18,7 @@ React-native EXPO
 Node JS
 JavaScript
 
-<h3>Banco de dados<h3>
+<h3>Banco de dados</h3>
 No-SQL
 Firebase
 
